@@ -4,7 +4,7 @@ These are the source codes used in the articles:
 * On the Consistency of a Random Forest Algorithm in the Presence of Missing Entries, Irving Gómez-Méndez and Emilien Joly, 2021 (to be published).
 * Regression with Missing Data, a Comparison Study of Techniques Based on Random Forests, Irving Gómez-Méndez and Emilien Joly, 2021 (to be published).
 
-More specific codes for the creation of the datasets with missing values, the construction of the random forests for each missingness mechanism can be found in [https://github.com/IrvingGomez/RandomForestsSimulations] (https://github.com/IrvingGomez/RandomForestsSimulations).
+More specific codes for the creation of the datasets with missing values, the construction of the random forests for each missingness mechanism can be found in https://github.com/IrvingGomez/RandomForestsSimulations.
 
 ---
 ### Example of a recursive tree with missing entries.
