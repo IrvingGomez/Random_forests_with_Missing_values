@@ -31,10 +31,10 @@ miss_CART <- function(X, y, h, z){
   yAL <- y[inAL]  # responses in AL
   yAR <- y[inAR]  # responses in AR
   
+  yAL_bar <- mean(yAL)
+  yAR_bar <- mean(yAR)
+  
   if(length(ih_miss) == 0){
-    
-    yAL_bar <- mean(yAL)
-    yAR_bar <- mean(yAR)
     
     nAL <- length(yAL)
     nAR <- length(yAR)
@@ -50,7 +50,12 @@ miss_CART <- function(X, y, h, z){
   else{
     y_miss <- y[ih_miss]
     miss_dat <- cbind(y_miss, ih_miss) %>% as.data.frame
-    miss_dat <- miss_dat[with(miss_dat, order(y_miss)),]
+    
+    if (yAL_bar < yAR_bar){
+      miss_dat <- miss_dat[with(miss_dat, order(y_miss)),]
+    }else{
+      miss_dat <- miss_dat[with(miss_dat, order(-y_miss)),]
+    }
     
     y_miss <- miss_dat[,1]
     nih <- length(y_miss)
