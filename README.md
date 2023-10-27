@@ -6,6 +6,8 @@ These are the source codes used in the articles:
 
 More specific codes for the creation of the datasets with missing values, the construction of the random forests for each missing-data mechanism, etc. can be found in https://github.com/IrvingGomez/RandomForestsSimulations.
 
+There, it is possible to find examples on its use, in particular the example <a href="https://github.com/IrvingGomez/Random_forests_with_missing_values/blob/main/examples/Example_Anderson%20iris.ipynb">Example_Anderson iris.ipynb</a> shows most of the features.
+
 ---
 ### Example of a recursive tree with missing entries.
 <img src="examples/images/iris_tree_with_missing.png" width="400">
