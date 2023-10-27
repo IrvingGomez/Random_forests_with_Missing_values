@@ -1,7 +1,8 @@
 # Random Forests for Regression with Missing Entries
 These are the source codes used in the articles:
 
-* On the Consistency of a Random Forest Algorithm in the Presence of Missing Entries, Irving Gómez-Méndez and Emilien Joly, 2021 (to be published).
+* <a href="https://doi.org/10.1080/10485252.2023.2219783" target="_blank"> Irving Gómez-Méndez & Emilien Joly (2023). On the consistency of a random forest algorithm in the presence of missing entries,
+Journal of Nonparametric Statistics. </a>
 * Regression with Missing Data, a Comparison Study of Techniques Based on Random Forests, Irving Gómez-Méndez and Emilien Joly, 2021 (to be published).
 
 More specific codes for the creation of the datasets with missing values, the construction of the random forests for each missing-data mechanism, etc. can be found in https://github.com/IrvingGomez/RandomForestsSimulations.
